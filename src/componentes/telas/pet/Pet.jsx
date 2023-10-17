@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import PetContext from "./PetContext";
-import { getPetServico }
-    from '../../../servicos/PetServico';
 import {
     getPetServico, getPetServicoPorCodigoAPI,
     deletePetServico, cadastraPetServico

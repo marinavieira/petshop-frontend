@@ -28,7 +28,7 @@ function Form() {
             <CampoEntrada id="txtIdade" label="Idade" tipo="number"
                 name="idade" value={objeto.idade}
                 handlechange={handleChange}
-                requerido={false} readonly={true}
+                requerido={false} readonly={false}
                 maximocaracteres={2} />
             <CampoEntrada id="txtDescricao" label="Descrição" tipo="text"
                 name="descricao" value={objeto.descricao}

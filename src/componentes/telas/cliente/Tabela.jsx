@@ -50,7 +50,7 @@ function Tabela() {
                                 <td>{objeto.cpf}</td>
                                 <td>{objeto.ativo ? 'SIM' : 'NÃO'}</td>
                                 <td>{objeto.data_consulta}</td>
-                                <td>{objeto.pet_nome}</td>
+                                <td>{objeto.pet}</td>
                             </tr>
                         ))}
                     </tbody>
